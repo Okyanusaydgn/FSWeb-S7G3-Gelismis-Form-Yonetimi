@@ -122,7 +122,7 @@ const Form = ({yeniKullaniciEkle}) => {
         {formErrors.terms && <div className="input-error">{formErrors.terms}</div>}
       </div>
       <div>
-        <button type="submit" disabled={!formValid}> Gönder </button>
+        <button id="user-form-btn" type="submit" disabled={!formValid}> Gönder </button>
       </div>
     </form>
   );
